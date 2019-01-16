@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
 
 
   s.name         = "ChatBotBJ"
-  s.version      = "1.0"
-  s.summary      = "Pod for ChatBotPro."
+  s.version      = "1.0.4"
+  s.summary      = "Pod for ChatBotBJ"
 
     s.description  = <<-DESC
 	Pod for ChatBot
@@ -24,7 +24,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ranapnm123/ChatBotBJ.git", :tag => "#{s.version.to_s}" }
 
   s.source_files  = "ChatBotPro", "ChatBotPro/**/*.{h,m}"
-  #s.source_files  = "ChatBotPro", "ChatBotPro/**/*.xcdatamodel"
   s.exclude_files = "ChatBotPro/**/LaunchScreen.storyboard"
 
  
