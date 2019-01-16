@@ -31,7 +31,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <AVFoundation/AVAsset.h>
 #import "IDMPhotoBrowser.h"
-#import <TTTAttributedLabel.h>
+#import "TTTAttributedLabel.h"
 #import <SafariServices/SafariServices.h>
 #import <Speech/Speech.h>
 

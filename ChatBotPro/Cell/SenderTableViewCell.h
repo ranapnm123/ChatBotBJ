@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <TTTAttributedLabel.h>
+#import "TTTAttributedLabel.h"
 
 @interface SenderTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *imageview;
