@@ -1,0 +1,1 @@
+../../../ChatBotPro/ChatBotPro/ExternalClasses/UIImage+animatedGIF.h

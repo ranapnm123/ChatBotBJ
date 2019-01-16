@@ -1,0 +1,1 @@
+../../../ChatBotPro/ChatBotPro/UtilityClass/AppManager.h
