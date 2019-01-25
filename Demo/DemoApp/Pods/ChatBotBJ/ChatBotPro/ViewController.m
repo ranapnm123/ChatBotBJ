@@ -47,6 +47,12 @@
 
 #define kAWSBucketName @"mobile-dev-jubi"
 
+#define UIColorFromRGB(rgbValue) \
+[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >>  8))/255.0 \
+blue:((float)((rgbValue & 0x0000FF) >>  0))/255.0 \
+alpha:1.0]
+
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, UICollectionViewDelegateFlowLayout, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIDocumentMenuDelegate,UIDocumentPickerDelegate, UIPopoverPresentationControllerDelegate, TTTAttributedLabelDelegate, SFSpeechRecognizerDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *menuTableView;
@@ -679,8 +685,25 @@
         MenuTableViewCell *cell = (MenuTableViewCell*)[tableView dequeueReusableCellWithIdentifier:@"MenuTableViewCell"];
         cell.textLabel.text = [menuList objectAtIndex:indexPath.row];
         NSBundle *resourceBundle = [Utility getBundleForChatBotPro];
-        UIImage *img = [UIImage imageNamed:@"round.png" inBundle:resourceBundle compatibleWithTraitCollection:nil];
+        UIImage *img;
+        if (indexPath.row == 0) {
+        img = [UIImage imageNamed:@"start-over.png" inBundle:resourceBundle compatibleWithTraitCollection:nil];
+        }
+        else if (indexPath.row == 1) {
+            img = [UIImage imageNamed:@"loan-personal.png" inBundle:resourceBundle compatibleWithTraitCollection:nil];
+        }
+        else if (indexPath.row == 2) {
+            img = [UIImage imageNamed:@"loan-home.png" inBundle:resourceBundle compatibleWithTraitCollection:nil];
+        }
+        else if (indexPath.row == 3) {
+            img = [UIImage imageNamed:@"loan-property.png" inBundle:resourceBundle compatibleWithTraitCollection:nil];
+        }
+        else if (indexPath.row == 4) {
+            img = [UIImage imageNamed:@"end-conversation.png" inBundle:resourceBundle compatibleWithTraitCollection:nil];
+        }
+        cell.imageView.backgroundColor = UIColorFromRGB(0x333E5E);
         cell.imageView.image = img;
+        cell.imageView.layer.cornerRadius = 5.0;
         return cell;
     }
     

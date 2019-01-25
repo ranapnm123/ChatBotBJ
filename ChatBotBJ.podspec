@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "ChatBotBJ"
-  s.version      = "1.0.7"
+  s.version      = "1.0.9"
   s.summary      = "Pod for ChatBotBJ"
 
     s.description  = <<-DESC
