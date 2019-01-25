@@ -678,8 +678,9 @@
     if (tableView == self.menuTableView) {
         MenuTableViewCell *cell = (MenuTableViewCell*)[tableView dequeueReusableCellWithIdentifier:@"MenuTableViewCell"];
         cell.textLabel.text = [menuList objectAtIndex:indexPath.row];
-        UIImage *image = [UIImage imageNamed:@"round"];
-        cell.imageView.image = image;
+        NSBundle *resourceBundle = [Utility getBundleForChatBotPro];
+        UIImage *img = [UIImage imageNamed:@"round.png" inBundle:resourceBundle compatibleWithTraitCollection:nil];
+        cell.imageView.image = img;
         return cell;
     }
     

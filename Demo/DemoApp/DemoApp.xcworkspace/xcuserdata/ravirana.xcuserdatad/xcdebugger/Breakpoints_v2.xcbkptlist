@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/ChatBotPro/ChatBotPro/UtilityClass/Utility.m"
-            timestampString = "568832195.721428"
+            filePath = "Pods/ChatBotBJ/ChatBotPro/ViewController.m"
+            timestampString = "570139939.788932"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "208"
-            endingLineNumber = "208"
-            landmarkName = "+getBundleForChatBotPro"
+            startingLineNumber = "684"
+            endingLineNumber = "684"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
