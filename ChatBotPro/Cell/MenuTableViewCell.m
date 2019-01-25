@@ -13,7 +13,9 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-    self.titleLabel.textColor = [UIColor colorWithRed:215/255.0 green:54/255.0 blue:90/255.0 alpha:1];
+    
+    self.imageView.image = [UIImage imageNamed:@"round"];
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

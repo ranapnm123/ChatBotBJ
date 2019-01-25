@@ -18,6 +18,10 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>ChatBotBaseURL</key>
+	<string>https://bfsd.uat.bfsgodirect.com/bot/middleware/ios/JUBIZm13rS_bajajFinserv</string>
+	<key>ChatBotProjectID</key>
+	<string>JUBIZm13rS_bajajFinserv</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -41,9 +45,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>ChatBotBaseURL</key>
-	<string>https://early-salary-development.herokuapp.com/ios/JUBI15Q9uk_EarlySalaryUAT</string>
-	<key>ChatBotProjectID</key>
-	<string>JUBI15Q9uk_EarlySalaryUAT</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>You can select photos to attach to reports.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Aapp uses Speech recognition to transform your spoken words into text and then analyze the, so watch what you say!.</string>
 </dict>
 </plist>

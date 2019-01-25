@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "ChatBotBJ"
-  s.version      = "1.0.4"
+  s.version      = "1.0.7"
   s.summary      = "Pod for ChatBotBJ"
 
     s.description  = <<-DESC
@@ -41,5 +41,4 @@ Pod::Spec.new do |s|
    s.dependency "IDMPhotoBrowser"
    s.dependency "FirebaseMessaging"
    s.dependency 'AWSS3', '~> 2.6.13'            # For file transfers
-   s.dependency "TTTAttributedLabel"
 end

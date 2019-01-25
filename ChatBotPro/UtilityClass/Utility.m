@@ -389,7 +389,8 @@
     text = dataText;
     text = [text stringByReplacingOccurrencesOfString:@"[similar]" withString:@""];
     text = [text stringByReplacingOccurrencesOfString:@"[/similar]" withString:@""];
-        return text;
+        NSArray *textArray = [text componentsSeparatedByString:@"|"];
+        return textArray.firstObject;
 }
 else if ([dataText containsString:@"[nomatch]"]) {
     return @"I am looking for something else";

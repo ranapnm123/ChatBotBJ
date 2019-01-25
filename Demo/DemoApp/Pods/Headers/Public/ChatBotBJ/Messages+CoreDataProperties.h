@@ -1,0 +1,1 @@
+../../../ChatBotBJ/ChatBotPro/CoreData/Messages+CoreDataProperties.h

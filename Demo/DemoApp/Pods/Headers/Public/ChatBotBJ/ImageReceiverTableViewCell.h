@@ -1,0 +1,1 @@
+../../../ChatBotBJ/ChatBotPro/Cell/ImageReceiverTableViewCell.h

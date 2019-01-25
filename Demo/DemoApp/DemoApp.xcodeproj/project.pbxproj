@@ -202,13 +202,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DemoApp/Pods-DemoApp-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ChatBotPro/ChatBotPro.bundle",
-				"${PODS_ROOT}/Vertigo/Vertigo/TGRImageViewController.xib",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ChatBotBJ/ChatBotPro.bundle",
+				"${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPhotoBrowser.bundle",
+				"${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPBLocalizations.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ChatBotPro.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TGRImageViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDMPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDMPBLocalizations.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,17 +368,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DemoApp/DemoApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ritu Kapoor (4XYG99APCB)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 7ZW3MR86WD;
+				DEVELOPMENT_TEAM = WMR3AQ2S78;
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.updatethisdatingappnow7129.update;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulp.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "78ee3ed8-6e93-4f55-aa19-1b0d7b91cf7f";
-				PROVISIONING_PROFILE_SPECIFIER = DevelopmentProfile;
+				PROVISIONING_PROFILE_SPECIFIER = TestingPush;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -387,17 +390,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DemoApp/DemoApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ritu Kapoor (4XYG99APCB)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 7ZW3MR86WD;
+				DEVELOPMENT_TEAM = WMR3AQ2S78;
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.updatethisdatingappnow7129.update;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pulp.testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "78ee3ed8-6e93-4f55-aa19-1b0d7b91cf7f";
-				PROVISIONING_PROFILE_SPECIFIER = DevelopmentProfile;
+				PROVISIONING_PROFILE_SPECIFIER = TestingPush;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

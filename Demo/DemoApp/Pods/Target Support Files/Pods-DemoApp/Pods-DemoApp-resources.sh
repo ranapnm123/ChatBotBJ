@@ -92,12 +92,14 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ChatBotPro/ChatBotPro.bundle"
-  install_resource "${PODS_ROOT}/Vertigo/Vertigo/TGRImageViewController.xib"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ChatBotBJ/ChatBotPro.bundle"
+  install_resource "${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPhotoBrowser.bundle"
+  install_resource "${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPBLocalizations.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ChatBotPro/ChatBotPro.bundle"
-  install_resource "${PODS_ROOT}/Vertigo/Vertigo/TGRImageViewController.xib"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/ChatBotBJ/ChatBotPro.bundle"
+  install_resource "${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPhotoBrowser.bundle"
+  install_resource "${PODS_ROOT}/IDMPhotoBrowser/Classes/IDMPBLocalizations.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
